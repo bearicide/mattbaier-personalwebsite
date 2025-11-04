@@ -1,11 +1,11 @@
 # Matt Baier — A Personal Website and Journey
 
 This site started as a plain resume and evolved into a living demonstration of:
-- systematuc thinking
+- systematic thinking and logical workflow
 - personality and humor
 - real-world operational discipline
 - front-end control and UI polish
-- turning chaos into something smooth
+- transforming chaos into something engaging
 - proof of dedication and willingness to adapt
 - a showcase of some fun stuff
 - a reason to make hyphenated lists
@@ -29,9 +29,9 @@ It's equal parts professional portfolio and personal calling card. Text only, pl
 
 **🔗** https://bearicide.github.io/mattbaier-personalwebsite/
 
-### Local Run
+### Local Run (So far away...)
 
-No build. No frameworks. No nonsense.
+No build. No frameworks. No nonsense. No banana for scale. This isn't OnlyFans.  
 
 ```bash
 git clone https://github.com/bearicide/mattbaier-personalwebsite.git
