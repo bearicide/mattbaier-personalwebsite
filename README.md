@@ -1,4 +1,4 @@
-# Matt Baier — A Personal Website and Journey
+# bearicide - a personal journey.
 
 This site started as a plain resume and evolved into a living demonstration of:
 - systematic thinking and logical workflow
