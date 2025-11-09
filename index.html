@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matt Baier – Resume & Portfolio</title>
+  <meta name="description" content="Professional portfolio and resume of Matt Baier – Manager, Designer, and Founder of The Comeback Kitchen Co." />
+  <meta name="theme-color" content="#18453B" />
+  <link rel="icon" href="https://bearicide.github.io/assets/favicon.ico" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap');
+
+    :root {
+      --bg:#0c3b1e;
+      --cream:#f7f4ec;
+      --maize:#FFCB05;
+      --blue:#00274C;
+      --hover-accent:#fff8c2;
+    }
+
+    html, body {
+      margin: 0; padding: 0; min-height: 100%; width: 100%;
+      background: var(--bg); color: var(--cream);
+      font-family: 'Raleway', system-ui, sans-serif;
+      display: flex; justify-content: center; align-items: center;
+      text-align: center; flex-direction: column;
+      animation: fadeIn 0.8s ease-in;
+    }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+    main {
+      width: 90%; max-width: 780px; background: rgba(255,255,255,0.07);
+      border: 3px solid var(--cream); border-radius: 20px; padding: 2.5rem;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 5vw, 3.4rem);
+      font-weight: 900; color: var(--maize);
+      margin-bottom: 0.3rem;
+    }
+
+    h2 { color: var(--cream); font-size: 1.4rem; margin-top: 1rem; }
+    p { line-height: 1.7; margin: 0.6rem 0 1.2rem; }
+
+    .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin: 1.4rem 0; }
+
+    .btn {
+      background: var(--maize); color: var(--blue);
+      padding: 0.8rem 1.3rem; border-radius: 12px;
+      font-weight: 700; position: relative; overflow: hidden;
+      transition: transform 0.25s ease, background 0.3s ease;
+      text-decoration: none;
+      min-width: 150px;
+    }
+
+    .btn::before {
+      content: ""; position: absolute; top: 0; left: -150%; width: 50%; height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
+      transform: skewX(-20deg);
+    }
+
+    .btn:hover { transform: scale(1.05); background: var(--hover-accent); }
+    .btn:hover::before { animation: shimmer 1.2s forwards; }
+
+    @keyframes shimmer { 0% { left: -150%; } 100% { left: 150%; } }
+
+    section { margin: 2rem 0; text-align: left; }
+    section h3 { color: var(--maize); font-size: 1.3rem; border-bottom: 2px solid var(--cream); padding-bottom: 0.4rem; }
+
+    ul { list-style: none; padding: 0; }
+    li { margin: 0.4rem 0; }
+
+    footer {
+      font-size: 0.9rem; margin-top: 2rem; opacity: 0.9;
+      display: flex; justify-content: space-between; flex-wrap: wrap;
+      width: 100%; max-width: 600px; margin-left: auto; margin-right: auto;
+    }
+
+    footer a { color: var(--maize); text-decoration: none; }
+    footer a:hover { color: var(--hover-accent); }
+
+    @media (max-width:600px) {
+      main { padding: 1.5rem; }
+      section { text-align: center; }
+      footer { flex-direction: column; gap: 8px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Matt Baier</h1>
+    <h2>Manager • Designer • Founder, The Comeback Kitchen Co.</h2>
+
+    <div class="btns">
+      <a href="mailto:matt.baier86@gmail.com" class="btn">Email Matt</a>
+      <a href="https://bearicide.github.io/theflushinga-dotcom/" class="btn">Back to Portal</a>
+      <a href="https://bearicide.github.io/theflushinga-dotcom/gallery.html" class="btn">View Gallery</a>
+    </div>
+
+    <section>
+      <h3>About</h3>
+      <p>Fifteen years in restaurants forged me into someone who can take a noisy, stressful, fast‑moving environment and turn it into a system that produces speed, quality, and calm. I'm transitioning that experience into tech‑enabled operations and modern management. My background includes leadership, training, process design, and building predictable systems in unpredictable places.</p>
+    </section>
+
+    <section>
+      <h3>Experience</h3>
+      <ul>
+        <li><strong>Manager</strong> – The Flushing A Diner, Flushing, MI</li>
+        <li><strong>Shift Leader</strong> – Domino’s Pizza</li>
+        <li><strong>Founder</strong> – The Comeback Kitchen Company</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <ul>
+        <li><a href="https://bearicide.github.io/theflushinga-dotcom/" target="_blank" rel="noopener noreferrer">The Flushing A</a> – Brand modernization and digital relaunch</li>
+        <li><a href="https://bearicide.github.io/trackside-cafe/" target="_blank" rel="noopener noreferrer">Trackside Cafe</a> – Concept design and full web rebuild</li>
+        <li><a href="https://bearicide.github.io/" target="_blank" rel="noopener noreferrer">MattBear.Media</a> – Personal design and creative technology portfolio</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="https://theflushinga.com" target="_blank" rel="noopener noreferrer">Home</a>
+      <span>© 2025 Matt Baier</span>
+      <a href="https://github.com/bearicide" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
